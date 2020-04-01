@@ -4,6 +4,32 @@
 }
 
 .Container {
-background-color: grey ;
-text-decoration: blue;
+background-color: blue ;
+text-decoration: aliceblue;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#quizScore {
+  color: aliceblue;
+  background-color: blue;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: blue
+}
+
+button onclick {
+  text-align: center;
 }

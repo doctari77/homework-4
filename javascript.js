@@ -1,9 +1,9 @@
 var questionNumber = 0, quiz, quizScore, question, choice, choices, selectA, selectB, selectC, selectD, correct =0;
 var questions = [
-    ["What year did the Denver Browncos win their last title?","2011", "2013","2015","2016","D"],
-    ["What is that thing on Trumps head","raccoon","whig","roadkill","unknown","unknown"],
-    ["Who is the greatest basketball player of all time?","Lebron James","Michael Jordan","Bill Russell","Larry Bird","B"],
-    ["Who is the most underrated inventor of all time?","Tesla","Edison","DiVinci","Bell","A"]
+    ["What year did the Denver Broncos turn into the Denver BROWNcos?","2014", "2015","2016","2017","D"],
+    ["What is that thing on Trumps head","raccoon","wig","roadkill","unknown","D"],
+    ["When was the war of 1812 fought?","1811","1812","1978","1218","B"],
+    ["Which is the only sport where both parties know they are playing?","Basketball","Big Game Hunting","Fishing","Deer Hunting","A"]
 ];
 function _(x) {
 return document.getElementById(x);
@@ -31,7 +31,7 @@ quizScore.innerHTML += "<input type='radio' name='choices' value='B'> "+selectB+
 quizScore.innerHTML += "<input type='radio' name='choices' value='C'> "+selectC+"<br>";
 quizScore.innerHTML += "<input type='radio' name='choices' value='D'> "+selectD+"<br>";
 
-//quiz.innerHTML+= "<button onclick='checkAnswer()'>Submit</button>";
+
 
 }
 function checkAnswer(){
